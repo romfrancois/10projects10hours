@@ -15,6 +15,19 @@ Was mainly "inspired" by a few similar approaches online and thought it would be
     At first only 1 fixed date will be hardcoded for demo purpose.
 
 <br>
+
+* **Quiz app**
+
+    Very minimalist application that shows a series of 5 questions and let you know at the end how many you got right
+
+<br>
+
+* **Recipe app**
+
+    Application that displays a random recipe; you can also search for one.
+    Any can be added/removed as/from a favorite.
+
+<br>
 <br>
 
 ![GitHub stars](https://img.shields.io/github/stars/romfrancois/10projects10hours?style=social)

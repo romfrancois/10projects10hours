@@ -28,6 +28,13 @@ Was mainly "inspired" by a few similar approaches online and thought it would be
     Any can be added/removed as/from a favorite.
 
 <br>
+
+* **Movie app**
+
+    Rather simple app that displays recent movies and allow you to check some details, like synopsis, rating, etc.
+    Users can also search for a movie.
+
+<br>
 <br>
 
 ![GitHub stars](https://img.shields.io/github/stars/romfrancois/10projects10hours?style=social)

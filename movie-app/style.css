@@ -5,48 +5,116 @@
 }
 
 body {
-    background-color: rebeccapurple;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    background-color: #22254b;
     font-family: "Poppins", sans-serif;
-    margin: 0 0 3rem;
-    min-height: 100vh;
+    margin: 0;
 }
 
-h3 {
-    color: #fff;
-    font-size: 1.8rem;
-    margin-bottom: 0;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    margin: 0.5rem 0;
-    text-align: center;
-}
-
-li a {
-    color: #fff;
-    font-size: 1.2rem;
-    text-decoration: none;
-}
-
-footer {
-    background-color: rgb(119, 65, 173);
-    color: #f5f5f5;
-    padding: 1rem;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
+.movie-container {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
 }
 
-footer a {
-    color: #f5f5f5;
+header {
+    background-color: #373b69;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    width: 100%;
 }
+
+header input {
+    background-color: transparent;
+    border: 2px solid #22254b;
+    border-radius: 30px;
+    color: #fff;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+header input::placeholder {
+    color: #7378c5;
+}
+
+header input:focus {
+    background-color: #22254b;
+    outline: none;
+}
+
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie {
+    background-color: #373b69;
+    width: 300px;
+    border-radius: 3px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, .2);
+    margin: 2rem;
+    position: relative;
+}
+
+.movie img {
+    width: 100%;
+    transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.movie-info {
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing: 0.5px;
+}
+
+.movie-info span {
+    background-color: #272532;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+}
+
+.movie-info h3 {
+    margin: 0;
+}
+
+.ratingGreen {
+    color: rgb(39, 189, 39);
+}
+
+.ratingOrange {
+    color: orange;
+}
+
+.ratingRed {
+    color: rgb(189, 42, 42);
+}
+
+.synopsis {
+    background-color: white;
+    /* position: absolute;
+    top: 50%;
+    transition: .5s ease;
+    backface-visibility: hidden; */
+
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    /* top: 50%; */
+    transform: translate(0%, -58%);
+    text-align: center;
+    backface-visibility: hidden; 
+}
+
+.movie:hover img {
+    opacity: 0.3;
+}
+  
+.movie:hover .synopsis {
+    opacity: 1;
+}
+  

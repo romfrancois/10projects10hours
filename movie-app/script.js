@@ -53,8 +53,21 @@ async function displayMovies(movies = []) {
         movieInfoElement.appendChild(h3Element);
         movieInfoElement.appendChild(spanElement);
 
+        const synopsisElement = document.createElement('div');
+        synopsisElement.classList.add('synopsis-anim');
+
+        const h4Element = document.createElement('h4');
+        h4Element.innerText = 'Overview';
+        
+        const pElement = document.createElement('p');
+        pElement.innerText = `${movie.overview}`;
+
+        synopsisElement.appendChild(h4Element);
+        synopsisElement.appendChild(pElement);
+
         movieElement.appendChild(imgElement);
         movieElement.appendChild(movieInfoElement);
+        movieElement.appendChild(synopsisElement);
 
         moviesElement.appendChild(movieElement);
     });
@@ -74,7 +87,7 @@ async function handleSearchInput(e) {
 }
 
 // For debug purpose
-getMovies().then((movies) => console.log('movies: ', movies));
+// getMovies().then((movies) => console.log('movies: ', movies));
 
 const searchInput = document.getElementsByTagName('form')[0];
 searchInput.addEventListener('submit', handleSearchInput);

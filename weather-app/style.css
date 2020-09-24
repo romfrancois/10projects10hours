@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rebeccapurple;
+    background-color: #848C9B;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,38 +15,62 @@ body {
     min-height: 100vh;
 }
 
-h3 {
+h5 {
     color: #fff;
     font-size: 1.8rem;
+    margin-top: 0;
     margin-bottom: 0;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+.day {
+    width: 200px;
 }
 
-li {
-    margin: 0.5rem 0;
-    text-align: center;
+.currentWeather {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-li a {
-    color: #fff;
-    font-size: 1.2rem;
-    text-decoration: none;
-}
-
-footer {
-    background-color: rgb(119, 65, 173);
-    color: #f5f5f5;
-    padding: 1rem;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
+.weather-container {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
 }
 
-footer a {
-    color: #f5f5f5;
+.weatherState {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.weatherState .temp {
+    font-size: 3rem;
+}
+
+.weather {
+    background-color: #CED1D6;
+    width: 300px;
+    border-radius: 3px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, .2);
+    margin: 2rem;
+    position: relative;
+}
+
+.nextDay {
+    color: #A2A1A2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem 0 1rem;
+    letter-spacing: 0.5px;
+}
+
+img {
+    width: 32px;
 }

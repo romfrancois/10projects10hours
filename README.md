@@ -42,6 +42,13 @@ Was mainly "inspired" by a few similar approaches online and thought it would be
     We could also imagine adding/deleting locations as desired and expand today's forecast to display the rest of the week
 
 <br>
+
+* **Card game app**
+
+    Computer is drawing 2 cards from a deck; we compare the cards and get the score.
+    At the end of the game we congratulate the winner.
+
+<br>
 <br>
 
 ![GitHub stars](https://img.shields.io/github/stars/romfrancois/10projects10hours?style=social)

@@ -35,6 +35,13 @@ Was mainly "inspired" by a few similar approaches online and thought it would be
     Users can also search for a movie.
 
 <br>
+
+* **Weather app**
+
+    Simple app that displays today's weather for any searched location.
+    We could also imagine adding/deleting locations as desired and expand today's forecast to display the rest of the week
+
+<br>
 <br>
 
 ![GitHub stars](https://img.shields.io/github/stars/romfrancois/10projects10hours?style=social)

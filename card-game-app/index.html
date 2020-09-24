@@ -3,11 +3,32 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Title</title>
+        <title>Card Game</title>
         <link rel="stylesheet" href="style.css" />
         <script src="script.js" defer></script>
     </head>
     <body>
-        <h1>Base project</h1>
+        <div class="board">
+            <div class="player">
+                <span class="playerName">Player 1</span>
+                <img src="cardBack.png" alt="" class="card" id="player1">
+                <!-- <img src="https://deckofcardsapi.com/static/img/6S.png" alt="" class="card" id="player1"> -->
+                <span class="points" id="scoreP1">Score: 8</span>
+            </div>
+            
+            <div class="info">
+                <button id="drawCard" class="drawBtn"> Draw cards </button>
+                <span class="winner invisible" id="winner">Player 1 won!!</span>
+                <button id="newGame" class="newGame"> New game </button>
+            </div>
+
+            
+            <div class="player">
+                <span class="playerName">Player 2</span>
+                <img src="cardBack.png" alt="" class="card" id="player2">
+                <!-- <img src="https://deckofcardsapi.com/static/img/8S.png" alt="" class="card" id="player2"> -->
+                <span class="points" id="scoreP2">Score: 8</span>
+            </div>
+        </div>
     </body>
 </html>

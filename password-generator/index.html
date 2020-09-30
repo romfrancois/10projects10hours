@@ -8,6 +8,37 @@
         <script src="script.js" defer></script>
     </head>
     <body>
-        <h1> Password Generator </h1>
+        <div class="pwd-container">
+            <h3>Password Generator</h3>
+            
+            <div class="generatedPwd">
+                <label id="generatedPwd"></label>
+            </div>
+
+            <div class="criterias">
+                <div class="criteria">
+                    <label for="length">Password length</label>
+                    <input type="number" name="pwdLength" id="length" min="10" max="40">
+                </div>
+                <div class="criteria">
+                    <label for="upper">Uppercase letters</label>
+                    <input type="checkbox" name="uppercaseLetters" id="upper">
+                </div>
+                <div class="criteria">
+                    <label for="lower">Lowercase letters</label>
+                    <input type="checkbox" name="lowercaseLetters" id="lower">
+                </div>
+                <div class="criteria">
+                    <label for="numbers">Numbers</label>
+                    <input type="checkbox" name="numbers" id="numbers">
+                </div>
+                <div class="criteria">
+                    <label for="symbols">Symbols</label>
+                    <input type="checkbox" name="symbols" id="symbols">
+                </div>
+            </div>
+
+            <button class="validate", id="validate">Generate password</button>
+        </div>
     </body>
 </html>

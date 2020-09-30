@@ -55,6 +55,12 @@ Was mainly "inspired" by a few similar approaches online and thought it would be
     Generate a custom password based on some parameters (letters, numbers, length, ...)
 
 <br>
+
+* **GitHub Profile**
+
+    Lookup a github profile name and display some info.
+
+<br>
 <br>
 
 ![GitHub stars](https://img.shields.io/github/stars/romfrancois/10projects10hours?style=social)

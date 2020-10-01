@@ -61,6 +61,12 @@ Was mainly "inspired" by a few similar approaches online and thought it would be
     Lookup a github profile name and display some info.
 
 <br>
+
+* **ToDo App**
+
+    A classic after _Hello World!_ :)
+
+<br>
 <br>
 
 ![GitHub stars](https://img.shields.io/github/stars/romfrancois/10projects10hours?style=social)

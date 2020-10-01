@@ -67,6 +67,12 @@ Was mainly "inspired" by a few similar approaches online and thought it would be
     A classic after _Hello World!_ :)
 
 <br>
+
+* **Notes App**
+
+    Add notes to Post-It like notes
+
+<br>
 <br>
 
 ![GitHub stars](https://img.shields.io/github/stars/romfrancois/10projects10hours?style=social)

@@ -74,6 +74,11 @@ Was mainly "inspired" by a few similar approaches online and thought it would be
 
 <br>
 <br>
+You can have a go [here](https://romfrancois.github.io/10projects10hours/)
+
+Reminder that for some parts you'll need an API key to proceed.
+<br>
+<br>
 
 ![GitHub stars](https://img.shields.io/github/stars/romfrancois/10projects10hours?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/romfrancois/10projects10hours?style=social)
